@@ -1,0 +1,24 @@
+
+a .write a command to create a file named demo.txt inside movies directory
+
+     touch /home/rps/Movies/demo.txt
+
+  b. copy  hello.txt files from Desktop to Downloads directory
+  
+   cp /home/rps/Desktop/hello.txt  /home/rps/Downloads/
+
+c. Write a command to display all the files from Movies Directory
+ 	 ls
+	 ls -a
+
+
+d. display first 15 lines of demo.txt file
+    head -15 demo.txt
+
+e. using cat command, create a new file and write the data to the file.
+  
+  cat > filename.txt
+  cat >> filename.txt
+
+f. read the file content of demo.txt
+  cat demo.txt

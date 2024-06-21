@@ -1,0 +1,32 @@
+Assignment 1
+
+Difference between scrum vs Kanban
+
+Scrum and Kanban are both Agile project management methodologies ,but they have some key difference in their approach.Here is a breakdown:
+
+1.Structure:
+
+Scrum:
+  Highly structured with defined roles(Product Owner ,Scrum Master ,Developers),events(Sprint Planning ,Daily Scrum, Sprint Review, Sprint Retrospective), and artifacts(Product backlog, Sprint Backlog, Increment).
+
+
+
+
+Kanban:
+	 Less structured,focusing on continuous workflow with a visual Kanban board displaying tasks in stages(e.g:To Do,In Progress,Done)
+
+
+2.Planning & Workflows:
+
+Scrum:
+    Works in a fixed-length iterations called sprints(typically 1-4 weeks).Teams commit to a set of tasks for each sprint.Work is not interrupted during sprint.
+Kanban:
+	    Focuses on continuous flow of work.New tasks are added to the board as capacity   allows.Work items move through stages until completion.
+
+3.Focus:
+
+Scrum:
+    Focuses on delivering potentially shippable product increments at the end of each sprint.Emphasizes predictability and learning through short cycles.
+
+Kanban: 
+    Focuses on optimizing workflow efficiency and lead time for tasks.Emphasizes continuous improvement and flexibility to adapt changing priorities.

@@ -1,0 +1,20 @@
+Assignment 1:
+
+Write 2 scripts for daily stand up meeting:
+
+1.
+Scrum Master:  Good morning team ,Let's start the daily stand up meeting .Keep the update clean and clear .Let's start with John.
+
+John: Yesterday I completed user registration form implementation .Today I will work on login functionality .I might need some help with integrating it with the user database.
+Suresh: Yesterday I finished testing the user registration form .Everything seems to be working as expected .Today I will be working on testing the login functionality once it is integrated.
+
+Scrum Master: Alright John let's schedule some time after the meeting to discuss database integration for login .Everyone else ,please move forward with your tasks .Thanks everyone, have a great day.
+
+2
+Scrum Master: Good morning team, Let's start the daily stand up meeting. Keep the update clean and clear. Let's start with Sarah.
+
+Sarah: Yesterday I completed user registration form implementation. Today I will work on login functionality. I don’t anticipate any major roadblocks for now.
+
+Ramesh: Yesterday, I completed the movie search by title algorithm. Today I will be integrating the genre filter for movie browsing. I might need some help with API integration for retrieving genre data.
+
+Scrum master: Alright, Thanks everyone, please move forward with your tasks. And Ramesh, let's discuss the API integration after the meeting.

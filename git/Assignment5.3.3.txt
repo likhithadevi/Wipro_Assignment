@@ -1,0 +1,40 @@
+Explain absolute and relative path?
+
+    	Absolute and relative paths are two ways to specify the location of a file or directory within a computer's file system. Here’s a breakdown of the key differences:
+
+1.Absolute Path:
+
+	Definition:
+   		An absolute path specifies the exact location of a file or directory starting from the root directory(usually denoted by “/” on Unix-based systems and drive letters like “C:” on windows)
+
+      Example:
+	     /home/rps/Desktop/demo.txt
+
+
+     Advantages:
+	1.Clear and unambiguous, easy to understand where the file resides
+	2.Works regardless of your current working directory
+
+     Disadvantages:
+         1.Can be lengthy and inconvenient to type ,especially for deeply nested locations.
+	 2.Not portable
+
+
+2.Relative Path:
+
+	Definition:
+   	       A relative path specifies the location of a file or directory relative to your current working directory .It doesn’t involve the entire path from the root.
+
+	Example:
+  		 cd Desktop
+
+	
+	Advantages:
+               
+ 	    1.More concise and easier to type, especially for frequently accessed files/directories    within your current location 
+     	    2.More Portable.
+
+
+	Disadvantages:
+      
+     	    1.Relies on your current working directory. The same relative path might point to different locations depending on where you are in the file system.

@@ -1,0 +1,27 @@
+ Draw your Home Network Topology and explain how you are accessing the RPS Lab environment.
+
+Home network topology:
+				
+
+						Internet Service Provider(ISP)
+									|
+									|
+							    	   Router
+									|
+									|
+								Wireless Connection
+								   (Laptop)
+									|
+									|
+								RPS Lab					
+
+
+
+Internet Service Provider: This is the company that provides you with access to the internet.
+
+Router: The router is the central device in your home network. It connects your devices to each other and to the internet. It directs data traffic between your devices and the internet based on their IP addresses.
+
+Wireless Connection: Devices can also connect to the router wirelessly using Wi-Fi.
+
+Accessing the RPS Lab environment:
+Web-based Environment need to access it directly through web browser on laptop where we need a login and password provided by institution.

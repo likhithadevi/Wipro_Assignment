@@ -1,0 +1,38 @@
+﻿Assignment 1:
+
+ Create an infographic illustrating the Test-Driven Development (TDD) process. Highlight steps like writing tests before code, benefits such as bug reduction, and how it fosters software reliability.
+
+
+                                  write failing test
+						|
+						|
+					Test Fails
+						|
+						|
+					Write Minimal Code
+						|
+						|
+					Test Passes
+						|
+						|
+					Big reduced code
+
+
+
+
+* A:Write failing test is the first step in the flowchart. IN this step ,a certain functionality needs to be defined, and an automated test that tries to run will fail since the code needed to implement the functionality hasn’t been written yet.
+* The arrow indicates B:Test Failure(Anticipated).Since the code is still in development, this result is anticipated.
+* The next step in the procedure is C:Write minimal code .To pass the failed test ,the developer creates exactly the right amount of code. This guarantees that the code stays away from superfluous complexity and concentrates on the intended functionality.
+* D:Test passes is connected to C:Write minimal code. We proceed to the next step once the test is passed by written code
+* E:Reliable,code with fewer bugs. A TDD cycle that is successful is indicated by this path. The written code is more dependable and has fewer bugs because it performs as expected and has passed the test.
+
+
+Benefits Highlighted:
+
+1.Test written before code: The starting point (A) emphasizes writing the test first.
+2.Bug reduction: The connection from D:Test passes to F:Reliable,Bug-Reduced code highlights how TDD helps identify and fix bugs early in the development process.
+
+
+
+
+

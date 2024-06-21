@@ -1,0 +1,124 @@
+1.Write 30 Linux commands
+
+	1.ls
+		(List directory contents)
+		    ls -l
+	
+	2.pwd
+		(Present working directory)
+		    pwd
+
+	3.cd
+		(Change directory)
+		   cd Desktop
+	
+	4.mkdir
+		(Make directory )
+		   mkdir filename
+	
+	5.rmdir
+		(Remove directory)
+		   rmdir filename
+	
+	6.cp
+		(Copy files or directories)
+		  cp filename1 directory
+	
+	
+	7.mv
+		(Move or rename files or directories)
+		  mv oldname.txt newname.txt
+	
+	8.rm
+		(Remove files or directories)
+		   rm filename
+	
+	9.touch
+		(Create empty files)
+                   touch newfile.txt
+	
+	10.cat
+		(Display the contents of a file on the terminal)
+		   cat message.txt
+ 	
+	11.echo
+		(Print text to the terminal)
+		   echo helloworld!
+	
+	12.man
+		(Display the manual page for a command)
+		   man ls
+	
+	13. uname
+		(Print information about the system)
+		   uname -a
+	
+	14.whoami
+		(Show the current logged in user)
+		   whoami
+	
+	15.clear
+		(Clear the terminal screen)
+		   clear
+	
+	16.history
+		(Show previously executed commands)
+		    history
+	
+	17.tar
+		(Create or extract archive files)
+		    tar -cvf archive.tar files
+	
+	18.zip
+		(Create or extract zip files)
+		     zip archive.zip
+	
+	19.grep
+		(Search for pattern within a text file)
+		      grep error log.txt
+	
+	20.head
+		(Display the first few lines of a file)
+			head -n 5 myfile.txt
+	
+	21.tail
+		(Display the last few lines of a file)
+			tail -n 3 system.log
+	
+	22.sort
+		(Sort lines of text in a file)
+			sort filename.txt
+	
+	23.cut
+		(Extracts specific columns from a text file)
+			cut -d ‘,’ -f 1 data.txt
+	
+	24.diff
+		(Compare difference between two files)
+			diff filename1 filename2
+	
+	25.ping
+		(Check network connectivity to a host)
+			Ping google.com
+	
+	26.free
+		(Show availability and used memory)
+			free
+	
+	27.sudo 
+		(Execute a command with super user privileges)
+			sudo filename.txt
+	
+	28.tac
+		(Reads the file content in reverse order)
+			tac filename.txt
+	
+	29.diff
+		(compares the contents of files)
+			diff file1 file2
+	
+	30.exit
+		(logout of Linux)
+			exit
+
+

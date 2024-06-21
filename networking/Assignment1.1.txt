@@ -1,0 +1,53 @@
+Write some network terminologies
+
+Fundamentals of Networks:
+
+Network:
+ 
+The communication system's backbone. A network is an assembly of linked devices that may exchange data and resources, such as servers, printers, cellphones, and PCs. These units, referred to as nodes, are connected by cables or wireless signals for communication.
+
+1.Nodes: Singular networked devices. Every node has a distinct function:
+2.Client Node: Asks other nodes for information or resources. A client node that requests data from web servers is a computer that is navigating the internet, for instance.
+3.Server Node: Gives client nodes access to resources or data. Examples include email servers, file servers (which store shared files), and web servers.
+4.Protocols: Protocols are the fundamental guidelines and vocabulary used in network communication. Data is defined via protocols.
+5.Formatted: Standardized for effective transmission, like a device's common language.
+6.Packaged: Divided into small, easily handled units known as packets.
+7.Addressed: Assigned a distinct identity (IP address) for specific delivery, similar to a package's address.
+8.Transmitted: Delivered from sender to recipient.
+9.Received: The target recipient received the delivery successfully.
+10.Acknowledged: Confirmation that the data received accurately is acknowledged. Typical procedures consist of:
+11.TCP/IP: The internet's backbone, TCP/IP (transfer Control Protocol/Internet Protocol), divides data into packets, ensures delivery, and fixes faults to provide dependable data transfer.
+12.HTTP (Hypertext Transfer Protocol): This protocol is used for web browsing and describes the exchange of requests and material between web browsers and servers.
+13.Addressing:  For communication, every device on a network need a special     identification. The IP address is a numerical label (e.g., 192.168.1.10) that serves as this identifier and permits focused communication. Consider IP addresses like home numbers; they pinpoint a device's precise position within a network. IP addresses come in two primary varieties:
+14.Public IP Address: A public IP address is a special address that an internet service provider (ISP) assigns to a network so that devices on that network can connect to the internet.
+15.Private IP address: Not directly routable on the public internet, and used within a private network (such as a home or workplace).
+
+ Network Types and Infrastructure:
+ 
+Network Types:
+      Sorted according to size and extent:
+
+1.PAN:A personal area network, or PAN, is a tiny network that links devices together over a short distance—usually less than ten meters. It allows data sharing between devices, including computers, smartphones, printers, and wearable technology, and is intended for personal usage. PANs can be created using popular technologies like Bluetooth and Zigbee.
+2.LAN:A local area network, or LAN, is a small network that is restricted to a specific physical space, usually a house, workplace, or educational facility. LAN devices are typically grouped together and linked by Wi-Fi or Ethernet connections.
+3.Wide Area Network (WAN): Connects devices over greater distances, such as cities, states, nations, or even the entire world. The biggest WAN is the internet itself. Other types of wide area networks (WANs) include telephone networks and corporate networks that link geographically separated workplaces.
+Metropolitan Area Network(MAN):A metropolitan area, such as a metropolis or a sizable town, is covered by a metropolitan area network, or MAN. In addition to connecting LANs and CANs inside a city, it might offer other common carrier services like internet access. High-bandwidth technologies, such as fiber optic cables, are commonly used in MANs.
+
+Network Devices:
+
+   Devices with specific functions that make network operations easier:
+
+1.Switch: Within a LAN, a switch functions as a traffic director, intelligently guiding data packets to the correct location. It forwards packets in accordance with the location (MAC address) of connected devices that it discovers.
+2.Router: A router is a network bridge. It uses IP addresses to route data packets across many networks in the most effective way possible to reach their destination. Your gadgets are connected to the internet by your home router; larger networks may use numerous routers to handle complex traffic flow.
+3.Firewall: A firewall acts as a watchdog over your network, keeping an eye on and screening all incoming and outgoing traffic. It can stop unwanted access attempts, block harmful traffic like viruses, and shield your network from outside dangers.
+
+
+Advanced Network Concepts:
+
+Deeper exploration will reveal a more expansive vocabulary:
+
+1.DNS (Domain Name System): Consider websites as a phone book. DNS makes it simple for us to access websites by translating website names—like [invalid URL removed]—into their corresponding IP addresses.
+2.Subnet Mask: An IP address component used for network segmentation and effective routing that specifies the network and host portions of a network.
+3.Subnet Mask: An IP address component used for network segmentation and effective routing that specifies the network and host portions of a network.
+4.Virtual Private Network, or VPN: Picture a safe tunnel running through the internet. With the use of virtual private networks, or VPNs, users can safely access private networks from a distance.
+5.Network Security Protocols: A number of protocols, such as encryption, protect networks by encrypting data to guarantee privacy and thwarting illegal access. Typical instances consist of:
+6.SSL/TLS: Sensitive data is protected during communication between a web server and a browser thanks to SSL/TLS (Secure Sockets Layer/Transport Layer Security).

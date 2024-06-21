@@ -1,0 +1,35 @@
+Write 3 User Stories with acceptance criteria.
+
+1.Search for Movies
+      As a user I want to search for movies by genre, so that I can easily find the movie.
+
+Acceptance Criteria:
+1.Should provide search bar in home page
+2.Users should be able to search for movies by entering details.
+3.Results should be displayed according to user requirements
+4.Should provide a filter option for better results.
+
+
+
+2.View Showtimes and Seats:
+       As a user I want to see available showtimes and seat options so that I can book tickets.
+
+Acceptance Criteria:
+1.By selecting a movie, it should display available showtimes along with theaters list.
+2.Each showtime should contain information like theater name, date and time.
+3.Should display the theater seating chart by clicking on showtime.
+5.Should display available seats, booked seats and Unavailable seats.
+6.Should be able to select the seats whichever user wants to book.
+
+
+
+3.Book Tickets
+      As a user I want to book tickets and gets confirmation so that I can confirm my seat.
+
+Acceptance Criteria:
+1.Should display the total price for tickets after selecting seats.
+2.Should be able to enter the payment details of user
+3.Transactions should be processed securely.
+4.After successful payment, should provide a booking confirmation to the user via email or mobile number.
+
+	

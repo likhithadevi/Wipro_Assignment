@@ -1,0 +1,62 @@
+ SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment), highlighting the importance of each phase and how they interconnect.
+
+						REQUIREMENTS
+							|
+							|
+						 DESIGN
+							|
+							|
+						IMPLEMENTATION
+							|
+							|
+						TESTING
+							|
+							|
+						DEPLOYMENT
+
+
+
+SDLC:
+
+The Software Development Life Cycle (SDLC)A Structured Approach to Building High-Quality Software.
+The process of planning, designing, developing, testing, deploying, and maintaining software applications is called the Software Development Life Cycle (SDLC). It offers a structure that enables teams to collaborate productively and successfully to produce high-caliber software that satisfies user needs. Since the SDLC is an iterative process, teams may go back and review previous stages as they gain further project knowledge.
+
+STEP1: REQUIREMENTS 
+	understanding what needs to be built
+1.Gather requirements from stakeholders (users, business analysts, etc.)
+2.Define the features and functionalities of the software
+3.Prioritize requirements based on importance and feasibility
+4.Document the requirements in a clear and concise way
+
+The SDLC's requirements phase serves as its cornerstone. Before any development work is done, it is imperative to have a clear understanding of what the software needs to achieve. The team gets needs from users, business analysts, and product managers throughout this phase. After that, they specify the characteristics and functionalities of the program, rank the requirements according to significance and viability, and clearly and succinctly record the requirements. It will be easier to guarantee that the software is developed to satisfy user expectations if the requirements are clearly stated.
+
+STEP2:DESIGN
+           creating blueprint for the software
+1.Create a system architecture that meets the requirements
+2.Design the user interface (UI) and user experience (UX) of the software
+3.Develop detailed specifications for each component of the software
+4.Prototype the software to get user feedback
+
+The team uses the requirements acquired in the previous phase to create a technical software blueprint during the design phase. This entails designing the software's user interface (UI) and user experience (UX), building a system architecture that satisfies the objectives, producing thorough specifications for each software component, and prototyping the program to gather input from users. The design stage aids in making sure the program is user-friendly, intuitive, and meets user needs.
+
+STEP3:IMPLEMENTATION
+	Bringing the design to life
+
+1.Develop the software code based on the design specifications
+2.Unit test individual components of the software
+3.Integrate the different components of the software
+4.Conduct system testing to ensure the software meets all requirements
+
+In the implementation phase, the team takes the design documents created in the previous phase and starts to develop the software code. This involves coding individual components of the software, unit testing each component to ensure it works as expected, integrating all of the components together, and conducting system testing to ensure that the entire software application meets all of the requirements defined earlier in the SDLC. The implementation phase is where the software is actually built.
+
+STEP4:TESTING
+	Ensuring quality and functionality
+1.Test the software for functionality, usability, performance, and security
+2.Identify and fix bugs in the software
+3.Regression test the software to ensure that new features haven't introduced new bugs
+4.Get user feedback on the software
+
+To make sure the software is of the highest quality and satisfies user needs, testing is essential. The team tests the software's functionality, usability, performance, and security throughout this phase. They identify and fix errors in the software, test it again to make sure that newly added features haven't created new problems, and gather user opinions. The testing stage aids in making sure that the program is released to users in a fully functional and error-free state.
+
+STEP5:DEPLOYMENT
+	releasing the software to users

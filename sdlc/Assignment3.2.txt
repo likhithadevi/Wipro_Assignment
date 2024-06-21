@@ -1,0 +1,55 @@
+
+
+ Produce a comparative infographic of TDD, BDD, and FDD methodologies. Illustrate their unique approaches, benefits, and suitability for different software development contexts. Use visuals to enhance understanding.
+
+
+1.Test Driven Development:
+                                  
+* Focus: Writing automated tests before writing code
+* Process:
+1. Identify a feature  to develop
+2. Write a failing test for the feature
+3. Write minimal code to make the test pass
+4. Refactor the code for maintainability
+5. Repeat for all features
+* Benefits:
+      1.Reduced bugs
+       2.Improved code quality
+      3.Enhanced design
+      4.Increased maintainability
+* Suitable for: Projects with clear requirements,unit-testable code
+
+
+
+2.Behaviour Driven Development:
+ 
+Focus: Collaboration between developers, testers, and stakeholders using clear, shared language(gherkin syntax).
+Process:
+        1.Define user stories and acceptance criteria in a collaborative environment.
+        2.Translate user stories into executable specifications(gherkin features)
+        3.Develop code that fulfills the acceptance criteria.
+        4.Continuously refine features based on feedback.
+Benefits:
+        1.Improved communication and collaboration
+        2.Clearer understanding of user needs.
+        3.Early bug detection
+        4.Increased stakeholder satisfaction.
+Suitable for: Projects with complex requirements, heavy user interactions
+
+
+3.Feature Driven Development:
+
+Focus: Breaking down projects into small, manageable features with clearly defined objectives are deliverables.
+Process:
+   1.Develop a project model outlining features and dependencies.
+   2.Conduct iterative planning sessions for each feature
+   3.Develop,design and implement each feature in a short timeframe
+   4.Conduct quality reviews after each iteration.
+Benefits:
+* Increased project control and predictability
+* Improved risk management
+* Efficient resource allocation
+* Early delivery of working features
+
+
+Suitable for: Large, complex projects with evolving requirements.

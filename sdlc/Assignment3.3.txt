@@ -1,0 +1,23 @@
+Assignment 3:
+
+Agile Principles
+
+
+The Agile Manifesto outlines 12 core principles that guide Agile software development methodologies. Here’s a breakdown of these principles:
+
+
+1.Customer Satisfaction Through Early and Continuous Delivery: The focus is on delivering working software frequently, in short iterations get continuous feedback and ensure the product meets customer needs.
+2.Welcome Changing Requirements, Even Late in Development: Agile processes are flexible and adaptable. New requirements or changes in priorities can be accommodated throughout the development cycle.
+3.Deliver Working Software Frequently: The goal is to deliver functional software in short timeframes to get early user feedback and course-correct as needed.
+4.Business People and Developers Must Work Together Daily: Close collaboration between business stakeholders and developers is crucial for clear communication and understanding of requirements.
+5.Build Projects Around Motivated Individuals: Agile values empowered and motivated teams. Trust and ownership are key for high-quality work.
+6.Promote Face-to-Face Conversation: Direct communication and collaboration are essential for efficient information sharing and problem solving within the team.
+7.Working Software is the Primary Measure of Progress: The focus is on functional, working software as the key indicator of project progress just documentation or planning.
+8.Agile Processes Promote Sustainable Development: Agile practices encourage a balanced pace that developers can maintain without burnout.
+9.Continuous Attention to Technical Excellence and Good Design: Technical debt is minimized by keeping code clean ,well-designed and maintainable.
+10.Simplicity–the art of Maximizing the Amount of work not being done: Agile emphasizes focusing on essential features and avoiding unnecessary complexity.
+11.The Best Architecture, Requirement and Design Emerge from self organizing teams: Agile empowers teams to make decisions and self-organize to deliver the best solutions.
+12.At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly: Continuous improvement is a core principle. Teams regularly assess their processes and adapt to become more efficient and effective.
+
+
+These principles promote a flexible, iterative, and customer-centric approach to software development, allowing teams to respond to change and deliver high-value products.
