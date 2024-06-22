@@ -1,0 +1,53 @@
+Write a step to create a new branch and merge with master branch
+
+
+Here are the steps to create a new branch and merge its with another branch in Git:
+
+1.Create a New Branch:
+
+	1.Open your terminal and navigate to your Git repository using the cd command.
+	2.Use the git branch [branch name] command to create a new branch .
+		
+	For example branch1
+	eg: git branch branch1
+
+2.Switch to New Branch:
+
+	By default, the git branch command won't switch you to the newly created branch. To switch the new branch and start working on it, use the git checkout [branch name] command.
+	
+	For example :
+	 eg: git checkout branch1
+	      switched to branch 'branch1'
+
+3.Make changes and commit:
+
+	1.Make your changes to the codebase in the new branch.
+	2.Stage the changes you want to include in your commit using git add [file]. You can also use git add . to stage all modified and deleted files.
+	3.Commit your changes with a descriptive message using git commit -m "message" 
+	
+	For example:
+		git add .
+		git commit -m "commit changes"
+
+4.Switch to Branch you want to merge into:
+
+	1.Navigate back to the branch where you want to integrate the changes from your new branch. This typically the master branch , but it could be another development branch. Use the git checkout [branch name] command.
+	For example:
+	      git checkout master
+
+5.Merge the new branch:
+
+	1.Use the git merge [branch name] command to merge the changes from your new branch into current branch
+	For example:
+		git merge branch1
+
+6.Resolve merge conflicts:
+	
+	1.In some cases, git might encounter merge conflicts if there are overlapping changes between the branches. You will see instructions on how to resolve these conflicts manually by editing the files. Once resolved, add and commit the changes to finalize the merge.
+
+7.Push Changes to Remote Repository:
+
+	1.If you're working with a remote repository like GitHub, you can push your local commits to the remote branch using git push git push [remote name] [branch name].
+
+
+

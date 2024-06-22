@@ -1,0 +1,41 @@
+Explain fork and git clone with example
+
+	Forking and cloning are two important concepts in Git, especially when collaborating on projects hosted on platforms like GitHub. Here ' s a breakdown of each with an example:
+
+1. Git clone: Creating a Local Copy
+
+	Imagine you and a friend are working on a school project together. Your teacher has a master copy of the project files stored in a cabinet (central repository)
+
+	1.Cloning : Cloning is like making a physical copy of the project files from the cabinet . You use the git clone command followed by the remote repository URL to create a complete copy of the project on your local computer.
+
+	Example:
+
+	Lets say your friends project is hosted on GitHub with the URL
+	 https://github.com//yourfriend/project and you want a local copy. You can use:
+		
+		git clone https://github.com/yourfriend/project
+
+	This creates a local directory named "project" on your machine containing all the project files and version history . You can now work on your own copy independently.
+
+
+ 2. Git Fork: Creating a copy on a Remote Server:
+
+	Now, imagine you want to contribute some changes to your friends project but don't want to accidentally mess with original files.
+
+   	1.Forking :   
+Forking is like creating a separate copy of your friend's project cabinet on a different shelf (your GitHub account) while still referencing the original cabinet (friend's repository). You can make changes to your forked copy without affecting the original.
+
+	Example:
+	
+		1.On GitHub, you can navigate to your friends project and click "fork" button. This creates a copy of the entire repository under your own GitHub account.
+		2.Now you have a separate copy to work on.
+
+
+Benefits of Forking:
+
+	1.Contribute to open source projects:
+		Forking allows you to propose changes to open-source projects hosted on GitHub. You can make your changes in your fork, then create a pull request to suggest them to original projects maintainers.
+	2.Isolated Development: 
+		You can work on your own modifications without affecting the original project.
+	3.Collaboration: 
+		Multiple people can fork a project and work on their own changes without interfering with each other.
