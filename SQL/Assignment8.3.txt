@@ -1,0 +1,24 @@
+Write a query to find the product whose category is electronics 
+         find all the product whose price range is between 5000 and 10000
+         display name and price from product table.
+         display all the electronic category item which has price more than 2000
+         sort the product based on price in descending order.
+         sort the product based on name. 
+         count of product based on category. 
+         display all the products except the electronics category.
+
+
+
+1.select ProductName, price from product where price>5000 and price<10000;
+
+2.Select ProductName, price from product;
+
+3.Select product name ,category,price from product where category=‘electronic’ and price>2000;
+
+4.Select * from product order by price desc;
+
+5.Select * from product order by productname;
+
+6.Select  category, count(productid) from product group by category;
+
+7.Select * from product where category !=‘electronics’;

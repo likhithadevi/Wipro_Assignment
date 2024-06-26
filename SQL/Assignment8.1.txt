@@ -1,0 +1,31 @@
+ create a product table with necessary attribute. 
+    	1.write a query for table creation, 
+    	2.insert the product data into the table.
+    	3.write a query to retrieve all the product details 
+    	4.write a query to reterive id and product name 
+    	5.write a query to update and delete a product.
+
+
+1.Create table product(
+Productid number(10),
+productname varchar2(30),
+Price number(10,2),
+Manufactured number(10),
+Category varchar2(30)
+)
+
+2.
+Insert into product values(1,’sneakers’,1500,100);
+Insert into product values(2,’watch’,2500,100);
+Insert into product values(3,’bag’,1800,100);
+Insert into product values(4,’’spectacles,1200,100);
+Insert into product values(5,’’earphones,600,100,’electronics’);
+Insert into product values(6,’’mobile’,26000,100,’electronics’);
+
+3.Select * from product;
+
+4.Select productid, productname from product;
+
+5.Update set product price=2000 where productid=1;
+    Delete from product where id=2;
+

@@ -1,0 +1,40 @@
+
+ Design a database schema for a library system, including tables, fields, and constraints like NOT NULL,UNIQUE, and CHECK. Include primary and foreign keys to establish relationships between tables.
+
+
+
+create table books
+(
+	bookid number(10) primary key,
+	bookname varchar2(30) not null,
+	authorid number(10) not null,
+	categoryid number(10) not null,
+	constraint fk1 foreign key (authorid) references author(authorid),
+	constraint fk2 foreign key (categoryid) references category(category)
+);
+Create table author
+(
+	authorid number(10) primary key,
+	authorname  varchar2(30) not null
+);
+Create table category
+(
+	categoryid number(10) primary key,
+	categoryname varchar2(30) not null
+);
+Create table member
+(
+	memberid number(10) primary key,
+	membername varchar2(30) not null,
+	dob date check(dob <= current_date),
+	email varchar2(30) unique,
+	phonenumber varchar2(20) not null
+);
+Create table reservations
+(
+	reservationid number(10) primary key,
+	bookid number(10) not null,
+	memberid number(30) not null,
+	constraint fk3 foreign key(bookid) references book(bookid),
+	constraint fk4 foreign key(memberid) references member(memberid)
+); 
