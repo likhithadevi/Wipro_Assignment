@@ -1,0 +1,23 @@
+ Create a function that takes a filename as an argument and  prints the number of lines in the file. Call this function LS from your script with different filenames.
+
+
+#!/bin/bash
+
+count_lines() {
+  # Check if file exists
+  if [ ! -f "$1" ]; then
+    echo "Error: File '$1' does not exist."
+    return 1
+  fi
+
+  number_of_lines=$(wc -l < "$1")
+
+  echo "$1 has $number_of_lines lines."
+}
+
+filenames=("myfile1.txt" "data.csv" "script.sh")
+for filename in "${filenames[@]}";
+ do
+  count_lines "$filename"
+
+Done

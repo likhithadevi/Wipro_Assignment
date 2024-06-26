@@ -1,0 +1,20 @@
+count the number of files and folders in the directory.
+	if possible take the directory path from user.
+
+
+#!/bin/bash
+
+read -p "Enter directory path: " directory
+
+
+if [ ! -d "$directory" ]; then
+  echo "Error: Directory '$directory' does not exist."
+  exit 1
+fi
+
+files=$(find "$directory" ! -name ". *" -type f | wc -l)
+
+directories=$(find "$directory" -type d | wc -l)
+
+echo "Files: $files"
+echo "Directories: $directories"
