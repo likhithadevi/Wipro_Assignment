@@ -1,0 +1,16 @@
+Utilize a subquery to find customers who have placed orders above the average order value, and 
+write a UNION query to combine two SELECT statements with the same number of columns.
+
+
+
+
+Select c.customerid,c.customername from customer c
+Where c.customerid in (select o.customerid from order o
+Where o.ordervalue>(select avg(ordervalue) from order ));
+
+
+
+(Select  productid,productname,price from products order by price desc)
+Union
+(Select productid,productname,price from products order by ask);
+
