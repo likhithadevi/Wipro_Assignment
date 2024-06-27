@@ -1,6 +1,6 @@
 Assignment 2
 
-Explain the responsibility of scrum roles :,scrum master, product owner and development team
+Explain the responsibility of scrum roles ,scrum master, product owner and development team
 
  Scrum is a popular agile project management framework, there are three key roles:
 
@@ -33,7 +33,7 @@ This role represents the interest of the stakeholders and customers .They are re
 
 3.The Development Team
 
-     This is a self-organizing and cross-functional team with the skills necessary to completed the  project’s work.They are responsible for:
+     This is a self-organizing and cross-functional team with the skills necessary to completed the  project’s work. They are responsible for:
 	1.Providing product increments that could be shipped at the conclusion of each sprint.
 	2.Calculating how much work a user story will require.
 	3.During a sprint, adjusting to shifting requirements
